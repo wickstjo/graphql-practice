@@ -1,14 +1,57 @@
 {
-    "1": {
-        "name": "name of the wind",
-        "genre": "fantasy"
-    },
-    "2": {
-        "name": "the final empire",
-        "genre": "fantasy"
-    },
-    "3": {
-        "name": "the long earth",
-        "genre": "scifi"
-    }
+    "authors": [
+        {
+            "id": 1,
+            "name": "patrick rothfuss",
+            "age": 44
+        },
+        {
+            "id": 2,
+            "name": "brandon sanderson",
+            "age": 42
+        },
+        {
+            "id": 3,
+            "name": "terry pratchett",
+            "age": 66
+        }
+    ],
+    "books": [
+        {
+            "id": 1,
+            "name": "name of the wind",
+            "genre": "fantasy",
+            "author_id": 1
+        },
+        {
+            "id": 2,
+            "name": "the final empire",
+            "genre": "fantasy",
+            "author_id": 2
+        },
+        {
+            "id": 3,
+            "name": "the long earth",
+            "genre": "scifi",
+            "author_id": 3
+        },
+        {
+            "id": 4,
+            "name": "the hero of ages",
+            "genre": "fantasy",
+            "author_id": 2
+        },
+        {
+            "id": 5,
+            "name": "the color of magic",
+            "genre": "fantasy",
+            "author_id": 3
+        },
+        {
+            "id": 6,
+            "name": "the light of fantastic",
+            "genre": "fantasy",
+            "author_id": 3
+        }
+    ]
 }
